@@ -59,7 +59,11 @@ multiplyNums(10,3, (multiplyIt) =>{
 function contains(item, list, cb) {
   // contains checks if an item is present inside of the given array/list.
   // Pass true to the callback if it is, otherwise pass false.
-}
+  cb(item, list);
+};
+contains("Notebook", items, (gotIt)=>{
+  console.log(gotIt)
+});
 
 /* STRETCH PROBLEM */
 
