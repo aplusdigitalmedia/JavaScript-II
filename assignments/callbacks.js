@@ -24,7 +24,7 @@ const items = ['Pencil', 'Notebook', 'yo-yo', 'Gum'];
 
 */
 
-
+/*
 function getLength(arr, cb) {
   // getLength passes the length of the array into the callback.
   cb(arr.length);
@@ -64,7 +64,7 @@ function contains(item, list, cb) {
 contains("Notebook", items, (gotIt)=>{
   console.log(gotIt)
 });
-
+*/
 /* STRETCH PROBLEM */
 
 function removeDuplicates(array, cb) {
